@@ -1,64 +1,72 @@
-body{
-    background: #1a1a1a;
-    font-family: cursive;
+body {
+  background: #1a1a1a;
+  font-family: cursive;
 }
 
 /* this is the header section */
-.box1{
-    display: flex;
-    justify-content: space-between; 
-    color: white; 
-    box-shadow: 0px 0px 10px #000;
-    padding: 0px 15px 0px 15px;
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  box-shadow: 0px 0px 10px #000;
+  padding: 0px 15px 0px 15px;
 }
 
-.box1 > div > h4{
-    letter-spacing: -1px;
+.box1 > div > h4 {
+  letter-spacing: -1px;
 }
 
-.box1  ol > a{
-    text-decoration: none;
-    color: white;
+.box1 ol > a {
+  text-decoration: none;
+  color: white;
 }
 
-.box1  ol > a:nth-child(3){
-    color: red;
+.box1 ol > a:nth-child(3) {
+  color: red;
 }
 
-.box1  ol > a:hover{
-    /* color: red; */
-    color: rgba(174, 0, 255, 0.651);
-    font-weight: bold;
+.box1 ol > a:hover {
+  /* color: red; */
+  color: rgba(174, 0, 255, 0.651);
+  font-weight: bold;
 }
 
 /* this is the main section */
-.head{
-    text-align: center;
-    margin-top: 10px;
-    color: white;
+.head {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
 }
 
-.head > h2{ 
-    justify-content: center;
+.head > h2 {
+  justify-content: center;
 }
 
-.imgbox{ 
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
+.imgbox {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
-.imgbox > div > img{
-    width: 300px;
+.imgbox > div > img {
+  width: 300px;
 }
 
-.imgbox  p{
-   display: flex;
-   justify-content: space-evenly;
-    width: 300px; 
+.imgbox p {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
 }
 
-span:hover{
-    color: yellow;
+span:hover {
+  color: yellow;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .imgbox {
+    display: block;
+  }
 }
